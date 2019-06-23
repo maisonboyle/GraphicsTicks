@@ -1,0 +1,7 @@
+javac - classpath lib/JOML/joml.jar:lib/lwjgl/jar/lwjgl.jar -d ./out src/uk/ac/cam/cl/gfxintro/dab80/tick2/*.java
+
+Might need to change colon to semi colon
+
+java -classpath lib/JOML/joml.jar:lib/lwjgl/jar/lwjgl.jar:./out -Djava.library.path = lib/lwjgl/native uk.ac.cam.cl.gfxintro.dab80.tick2.Tick2
+
+run with -o output.png to create image instead of interactive
